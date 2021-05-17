@@ -1,0 +1,100 @@
+cdc_case_earliest_dt ,cdc_report_dt,pos_spec_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+2020/07/01,2020/07/19,,2020/07/01,Laboratory-confirmed case,Male,30 - 39 Years,Hispanic/Latino,No,Missing,No,Missing
+2020/10/11,2021/01/08,,2020/10/11,Laboratory-confirmed case,Female,10 - 19 Years,Unknown,No,Missing,No,Missing
+2021/02/09,2021/02/09,2021/02/04,2021/02/10,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Unknown
+2020/07/20,2020/07/20,,,Laboratory-confirmed case,Female,30 - 39 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+2020/06/05,2020/06/05,,2020/06/05,Laboratory-confirmed case,Male,0 - 9 Years,Hispanic/Latino,No,Missing,No,Missing
+2021/01/31,2021/01/31,,2021/01/31,Laboratory-confirmed case,Male,10 - 19 Years,Hispanic/Latino,No,Missing,No,Missing
+2020/05/18,2020/05/30,2020/05/20,2020/05/18,Laboratory-confirmed case,Female,80+ Years,"White, Non-Hispanic",Missing,Missing,No,Yes
+2020/12/08,2020/12/08,,,Probable Case,Male,20 - 29 Years,Unknown,Missing,Missing,Missing,Missing
+2020/08/09,2021/03/19,,2020/12/06,Laboratory-confirmed case,Unknown,10 - 19 Years,Unknown,Missing,Missing,Missing,Missing
+2020/11/20,2020/11/20,,,Laboratory-confirmed case,Male,30 - 39 Years,"American Indian/Alaska Native, Non-Hispanic",No,Missing,No,Missing
+2020/10/19,2020/11/04,,2020/10/19,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2021/01/07,2021/01/14,,2021/01/07,Probable Case,Missing,50 - 59 Years,Missing,Missing,Missing,Missing,Missing
+2021/03/17,2021/03/17,,,Laboratory-confirmed case,Female,40 - 49 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+2020/12/09,2021/03/20,,,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Missing,Missing,No,Missing
+2020/12/16,2020/12/16,,2020/12/22,Laboratory-confirmed case,Female,40 - 49 Years,"White, Non-Hispanic",No,Missing,Missing,Missing
+2021/04/19,2021/04/30,,2021/04/19,Laboratory-confirmed case,Female,10 - 19 Years,Unknown,Missing,Missing,Missing,Missing
+2021/01/05,2021/01/06,,2021/01/05,Probable Case,Female,40 - 49 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2020/11/09,2021/03/26,,2020/11/09,Laboratory-confirmed case,Male,20 - 29 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+2021/01/01,2021/01/01,,,Laboratory-confirmed case,Female,10 - 19 Years,Unknown,Missing,Missing,No,Missing
+2020/07/12,2020/07/16,2020/07/14,2020/07/12,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Unknown,Unknown,Unknown,Unknown
+2020/08/01,2020/08/01,,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+2020/11/04,2020/12/12,2020/11/04,2020/11/04,Laboratory-confirmed case,Male,20 - 29 Years,Unknown,No,Missing,Missing,Missing
+2020/08/10,2020/08/14,,2020/08/10,Laboratory-confirmed case,Female,20 - 29 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2020/12/18,2020/12/25,,2020/12/18,Laboratory-confirmed case,Male,30 - 39 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2020/11/30,2020/11/30,,,Laboratory-confirmed case,Female,50 - 59 Years,"American Indian/Alaska Native, Non-Hispanic",No,Missing,No,Missing
+2021/01/04,,,,Laboratory-confirmed case,Male,40 - 49 Years,Hispanic/Latino,Unknown,Missing,No,Missing
+2021/04/14,2021/04/14,,,Probable Case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+2021/01/22,2021/01/22,,,Laboratory-confirmed case,Female,70 - 79 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2021/04/03,2021/04/20,,2021/04/03,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Missing
+2020/12/08,2020/12/08,,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2021/01/08,2021/01/14,,,Laboratory-confirmed case,Missing,Missing,Missing,Missing,Missing,Missing,Missing
+2020/11/24,2021/03/22,2020/11/24,,Laboratory-confirmed case,Male,80+ Years,"White, Non-Hispanic",Unknown,Unknown,Yes,Unknown
+2020/08/27,2020/08/27,,,Laboratory-confirmed case,Female,10 - 19 Years,Missing,Missing,Missing,Missing,Missing
+2020/12/31,2021/01/11,,2020/12/31,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Missing,Missing,Missing,Missing
+2020/04/24,2020/06/24,,2020/04/24,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,Unknown,Missing
+2020/12/01,2020/12/10,2020/12/01,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+2020/11/20,2020/12/22,,,Laboratory-confirmed case,Female,10 - 19 Years,Unknown,Missing,Missing,Missing,Missing
+2020/11/03,2020/11/03,2020/11/03,,Laboratory-confirmed case,Female,40 - 49 Years,Unknown,Unknown,Unknown,No,Unknown
+2021/01/12,2021/01/12,,,Laboratory-confirmed case,Female,80+ Years,Hispanic/Latino,No,Missing,No,Missing
+2020/09/30,2020/10/09,2020/10/07,2020/09/30,Laboratory-confirmed case,Male,30 - 39 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+2021/03/19,2021/03/21,,2021/03/19,Laboratory-confirmed case,Male,20 - 29 Years,Hispanic/Latino,No,Missing,No,Missing
+2021/02/25,2021/02/26,,2021/02/25,Laboratory-confirmed case,Male,40 - 49 Years,Unknown,Missing,Missing,Missing,Missing
+2020/12/17,,,,Laboratory-confirmed case,Male,20 - 29 Years,Hispanic/Latino,Unknown,Missing,No,Missing
+2021/01/07,2021/01/07,2021/01/07,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+2021/01/12,2021/02/02,2021/01/12,,Laboratory-confirmed case,Male,60 - 69 Years,Unknown,Missing,Missing,No,Missing
+2020/10/06,2021/01/07,,2020/10/06,Laboratory-confirmed case,Female,10 - 19 Years,Hispanic/Latino,No,Missing,No,Missing
+2020/04/22,2020/06/20,,2020/04/22,Laboratory-confirmed case,Male,70 - 79 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2021/03/18,2021/03/18,,,Laboratory-confirmed case,Female,40 - 49 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+2020/04/13,2020/04/20,2020/04/13,,Laboratory-confirmed case,Female,20 - 29 Years,Unknown,Unknown,Unknown,Unknown,Unknown
+2021/02/05,2021/02/08,2021/02/05,,Laboratory-confirmed case,Male,10 - 19 Years,Unknown,Missing,Missing,Missing,Unknown
+2021/02/06,,,,Laboratory-confirmed case,Male,30 - 39 Years,Unknown,Missing,Missing,No,Missing
+2021/04/12,2021/04/14,,2021/04/12,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,No,Missing
+2020/11/16,2020/11/16,,,Laboratory-confirmed case,Female,40 - 49 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2020/11/09,2020/11/09,,2020/11/09,Probable Case,Male,40 - 49 Years,Missing,No,Missing,No,Missing
+2020/11/19,2020/11/19,2020/11/19,,Laboratory-confirmed case,Female,80+ Years,Unknown,Missing,Missing,Missing,Missing
+2021/01/19,2021/01/19,,,Laboratory-confirmed case,Female,40 - 49 Years,"Black, Non-Hispanic",Unknown,Missing,Unknown,Missing
+2021/04/18,2021/04/29,,2021/04/18,Laboratory-confirmed case,Female,40 - 49 Years,"White, Non-Hispanic",Yes,Missing,Missing,Missing
+2020/04/07,2020/04/07,,,Laboratory-confirmed case,Male,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+2020/10/17,2020/11/07,2020/10/17,2020/10/17,Laboratory-confirmed case,Female,10 - 19 Years,Hispanic/Latino,No,Missing,Missing,Missing
+2020/12/09,,,,Laboratory-confirmed case,Male,10 - 19 Years,Hispanic/Latino,Unknown,Missing,No,Missing
+2020/10/31,2020/10/31,,2020/10/31,Laboratory-confirmed case,Male,10 - 19 Years,Unknown,No,Missing,No,Missing
+2020/10/19,2020/11/02,,2020/10/19,Laboratory-confirmed case,Male,40 - 49 Years,Unknown,Missing,Missing,Missing,Missing
+2020/03/18,2021/01/25,2020/03/18,,Laboratory-confirmed case,Unknown,20 - 29 Years,Unknown,Missing,Missing,No,Missing
+2020/10/02,2020/10/09,,2020/10/02,Laboratory-confirmed case,Female,0 - 9 Years,"White, Non-Hispanic",Unknown,Missing,Unknown,Missing
+2020/04/20,2020/04/29,,2020/04/20,Laboratory-confirmed case,Male,40 - 49 Years,Hispanic/Latino,No,Missing,Yes,Missing
+2020/11/18,2020/11/18,,,Laboratory-confirmed case,Unknown,30 - 39 Years,Unknown,Missing,Missing,No,Missing
+2020/11/28,2020/11/28,,2020/11/28,Laboratory-confirmed case,Male,10 - 19 Years,"White, Non-Hispanic",No,No,No,Yes
+2020/11/28,2020/11/28,,,Laboratory-confirmed case,Female,20 - 29 Years,"White, Non-Hispanic",Unknown,Missing,Unknown,Missing
+2020/11/29,2020/12/21,2020/12/03,2020/11/29,Laboratory-confirmed case,Male,40 - 49 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Unknown
+2021/04/17,2021/04/23,,2021/04/17,Laboratory-confirmed case,Female,40 - 49 Years,Hispanic/Latino,No,Missing,Missing,Missing
+2021/01/31,2021/01/31,,,Laboratory-confirmed case,Male,20 - 29 Years,Unknown,No,Missing,No,Missing
+2020/12/22,2020/12/30,,2020/12/22,Laboratory-confirmed case,Male,10 - 19 Years,Hispanic/Latino,No,Missing,No,Missing
+2021/04/16,2021/04/19,,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,No,Missing
+2020/12/09,2020/12/09,,,Laboratory-confirmed case,Male,20 - 29 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+2020/12/26,2021/03/01,2020/12/28,2020/12/26,Laboratory-confirmed case,Male,10 - 19 Years,"White, Non-Hispanic",No,No,No,Missing
+2020/12/23,2020/12/23,,2020/12/23,Laboratory-confirmed case,Female,40 - 49 Years,Hispanic/Latino,No,Missing,No,Missing
+2021/03/25,2021/03/25,,,Laboratory-confirmed case,Female,30 - 39 Years,Hispanic/Latino,No,Missing,No,Missing
+2021/03/10,2021/03/10,,,Laboratory-confirmed case,Male,30 - 39 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+2020/12/31,2020/12/31,,,Laboratory-confirmed case,Female,40 - 49 Years,Hispanic/Latino,Unknown,Missing,Unknown,Missing
+2020/12/17,,,,Laboratory-confirmed case,Female,60 - 69 Years,Hispanic/Latino,Missing,Missing,No,Missing
+2020/05/29,2021/01/23,2020/05/29,,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Missing,Missing,No,Missing
+2021/03/20,2021/03/20,,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+2020/11/13,2020/11/26,,2020/11/13,Laboratory-confirmed case,Male,30 - 39 Years,"Asian, Non-Hispanic",No,Missing,Missing,Missing
+2021/04/02,2021/04/20,,2021/04/02,Laboratory-confirmed case,Male,10 - 19 Years,"White, Non-Hispanic",Missing,Missing,No,Missing
+2020/11/08,2020/11/08,,2020/11/08,Laboratory-confirmed case,Male,10 - 19 Years,"White, Non-Hispanic",No,Missing,No,Yes
+2020/06/22,,,,Laboratory-confirmed case,Male,20 - 29 Years,Unknown,Unknown,Missing,No,Missing
+2020/11/10,2020/11/10,,,Laboratory-confirmed case,Male,70 - 79 Years,Unknown,Missing,Missing,Missing,Missing
+2021/04/07,2021/04/17,2021/04/08,2021/04/07,Laboratory-confirmed case,Male,20 - 29 Years,"White, Non-Hispanic",No,Missing,Missing,Missing
+2020/06/28,2020/06/28,,2020/06/28,Laboratory-confirmed case,Female,20 - 29 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2020/11/18,,,,Laboratory-confirmed case,Male,0 - 9 Years,Hispanic/Latino,Unknown,Missing,No,Missing
+2021/01/16,2021/01/16,,,Probable Case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Unknown
+2020/06/21,,,,Laboratory-confirmed case,Male,60 - 69 Years,Hispanic/Latino,No,Missing,No,Missing
+2020/03/18,2020/03/26,,2020/03/18,Laboratory-confirmed case,Female,30 - 39 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2020/11/09,2020/11/20,2020/11/16,2020/11/09,Laboratory-confirmed case,Male,0 - 9 Years,"White, Non-Hispanic",No,Missing,Unknown,Missing
+2021/02/05,2021/02/05,,,Probable Case,Male,40 - 49 Years,"White, Non-Hispanic",Unknown,Unknown,Unknown,Unknown
+2020/11/11,2020/11/11,,2020/11/11,Laboratory-confirmed case,Male,40 - 49 Years,"White, Non-Hispanic",No,Missing,No,Missing
+2020/11/30,2021/05/04,2020/12/05,2020/11/30,Laboratory-confirmed case,Female,40 - 49 Years,Unknown,Missing,Missing,No,No
+2021/04/16,2021/04/16,2021/04/16,2021/04/16,Laboratory-confirmed case,Female,20 - 29 Years,Unknown,No,Missing,Missing,Missing
+2020/10/26,2020/10/29,2020/10/27,2020/10/26,Laboratory-confirmed case,Male,60 - 69 Years,"White, Non-Hispanic",No,No,Missing,Missing
