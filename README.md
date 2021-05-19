@@ -17,7 +17,7 @@ with in order to get a favorable outcome on analysis, but at a high-level we sho
 have a way to supply a dataset to the model like so:
 
 ```json
-{"age": 38, "sex": "female", "ethnicity": "Hispanic/Latino"}
+{"age": 38, "sex": "female", "ethnicity": "Hispanic/Latino", "underlying-conditions": false}
 ```
 
 This should in turn provide us with the likelihood of hospitalization and/or death
@@ -46,6 +46,23 @@ data we pass into the model will match on existing data values.
 - Perform analysis/evaluation (how well does it perform)
 - Tweak the model
 - Predict
+
+## Local Setup
+To run one of the Jupyter notebooks, make sure you have Jupyter installed, and run
+the command to open a specific notebook:
+```
+jupyter notebook covid-mortality.ipynb
+```
+
+## ToDo
+- [] create notebooks to explore data for mortality _and_ hospitilizations
+- [] save the trained models to `./models/`
+- [] load the models into a module where we can have methods to pass in data to predict
+  probabilities for either model
+- [] create a simple API with Flask to accept data
+- [] create a simple FE with select menus which will map the display values to the
+  values in our mappings for sex, age group, race/ethnicity, and underlying conditions
+- [] plot trends visually with `matplotlib` to show any data disparities
 
 ## Resources
 - https://pandas.pydata.org/getting_started.html
