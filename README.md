@@ -48,6 +48,13 @@ data we pass into the model will match on existing data values.
 - Predict
 
 ## Local Setup
+### Get the data
+Install git lfs: https://git-lfs.github.com/
+```
+git lfs install
+git lfs checkout
+```
+
 To run one of the Jupyter notebooks, make sure you have Jupyter installed, and run
 the command to open a specific notebook:
 ```
