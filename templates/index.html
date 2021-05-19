@@ -17,8 +17,8 @@
         <label for="sex-select">Choose a sex:</label>
         <select name="sex" id="sex-select">
           <option value="">--Please choose an option--</option>
-          <option value="1">Male</option>
-          <option value="0">Female</option>
+          <option value="0" {{ 'selected' if request.form['sex'] == '0' else '' }}>Female</option>
+          <option value="1" {{ 'selected' if request.form['sex'] == '1' else '' }}>Male</option>
         </select>
       </div>
 
@@ -26,15 +26,15 @@
         <label for="age-select">Choose an age range:</label>
         <select name="age" id="age-select">
           <option value="">--Please choose an option--</option>
-          <option value="0">0 - 9 Years</option>
-          <option value="1">10 - 19 Years</option>
-          <option value="2">20 - 29 Years</option>
-          <option value="3">30 - 39 Years</option>
-          <option value="4">40 - 49 Years</option>
-          <option value="5">50 - 59 Years</option>
-          <option value="6">60 - 69 Years</option>
-          <option value="7">70 - 79 Years</option>
-          <option value="8">80+ Years</option>
+          <option value="0" {{ 'selected' if request.form['age'] == '0' else '' }}>0 - 9 Years</option>
+          <option value="1" {{ 'selected' if request.form['age'] == '1' else '' }}>10 - 19 Years</option>
+          <option value="2" {{ 'selected' if request.form['age'] == '2' else '' }}>20 - 29 Years</option>
+          <option value="3" {{ 'selected' if request.form['age'] == '3' else '' }}>30 - 39 Years</option>
+          <option value="4" {{ 'selected' if request.form['age'] == '4' else '' }}>40 - 49 Years</option>
+          <option value="5" {{ 'selected' if request.form['age'] == '5' else '' }}>50 - 59 Years</option>
+          <option value="6" {{ 'selected' if request.form['age'] == '6' else '' }}>60 - 69 Years</option>
+          <option value="7" {{ 'selected' if request.form['age'] == '7' else '' }}>70 - 79 Years</option>
+          <option value="8" {{ 'selected' if request.form['age'] == '8' else '' }}>80+ Years</option>
         </select>
       </div>
 
@@ -42,13 +42,13 @@
         <label for="race-ethnicity-select">Choose race/ethnicity:</label>
         <select name="race-ethnicity" id="race-ethnicity-select">
           <option value="">--Please choose an option--</option>
-          <option value="0">Hispanic/Latino</option>
-          <option value="1">Black, Non-Hispanic</option>
-          <option value="2">White, Non-Hispanic</option>
-          <option value="3">American Indian/Alaska Native, Non-Hispanic</option>
-          <option value="4">Asian, Non-Hispanic</option>
-          <option value="5">Multiple/Other, Non-Hispanic</option>
-          <option value="6">Native Hawaiian/Other Pacific Islander, Non-Hispanic</option>
+          <option value="0" {{ 'selected' if request.form['race-ethnicity'] == '0' else '' }}>Hispanic/Latino</option>
+          <option value="1" {{ 'selected' if request.form['race-ethnicity'] == '1' else '' }}>Black, Non-Hispanic</option>
+          <option value="2" {{ 'selected' if request.form['race-ethnicity'] == '2' else '' }}>White, Non-Hispanic</option>
+          <option value="3" {{ 'selected' if request.form['race-ethnicity'] == '3' else '' }}>American Indian/Alaska Native, Non-Hispanic</option>
+          <option value="4" {{ 'selected' if request.form['race-ethnicity'] == '4' else '' }}>Asian, Non-Hispanic</option>
+          <option value="5" {{ 'selected' if request.form['race-ethnicity'] == '5' else '' }}>Multiple/Other, Non-Hispanic</option>
+          <option value="6" {{ 'selected' if request.form['race-ethnicity'] == '6' else '' }}>Native Hawaiian/Other Pacific Islander, Non-Hispanic</option>
         </select>
       </div>
 
@@ -56,8 +56,8 @@
         <label for="underlying-conditions-select">Any underlying conditions?</label>
         <select name="underlying-conditions" id="underlying-conditions-select">
           <option value="">--Please choose an option--</option>
-          <option value="1">Yes</option>
-          <option value="0">No</option>
+          <option value="0" {{ 'selected' if request.form['underlying-conditions'] == '0' else '' }}>No</option>
+          <option value="1" {{ 'selected' if request.form['underlying-conditions'] == '1' else '' }}>Yes</option>
         </select>
       </div>
 
