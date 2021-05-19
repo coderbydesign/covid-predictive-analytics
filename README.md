@@ -51,14 +51,20 @@ data we pass into the model will match on existing data values.
 ### Get the data
 Install git lfs: https://git-lfs.github.com/
 ```
-git lfs install
-git lfs checkout
+$ git lfs install
+$ git lfs checkout
 ```
 
 To run one of the Jupyter notebooks, make sure you have Jupyter installed, and run
 the command to open a specific notebook:
 ```
 jupyter notebook covid-mortality.ipynb
+```
+
+To install dependencies and run the server:
+```
+$ pipenv install
+$ flask run
 ```
 
 ## ToDo
