@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css">
+  </head>
+  <div class="container">
+    {% if error %}
+      <div class="alert alert-warning">
+        ERROR: {{ error }}
+      </div>
+    {% endif %}
+    <h1>COVID Hospitilization and Mortality Probabilities</h1>
+    <h5>Probabilities are based on a predictive analytics logistic regression model.</h5>
+    <hr>
+    <form id="prediction" method="post" action="">
+      <div>
+        <label for="sex-select">Choose a sex:</label>
+        <select name="sex" id="sex-select">
+          <option value="">--Please choose an option--</option>
+          <option value="1">Male</option>
+          <option value="0">Female</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="age-select">Choose an age range:</label>
+        <select name="age" id="age-select">
+          <option value="">--Please choose an option--</option>
+          <option value="0">0 - 9 Years</option>
+          <option value="1">10 - 19 Years</option>
+          <option value="2">20 - 29 Years</option>
+          <option value="3">30 - 39 Years</option>
+          <option value="4">40 - 49 Years</option>
+          <option value="5">50 - 59 Years</option>
+          <option value="6">60 - 69 Years</option>
+          <option value="7">70 - 79 Years</option>
+          <option value="8">80+ Years</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="race-ethnicity-select">Choose race/ethnicity:</label>
+        <select name="race-ethnicity" id="race-ethnicity-select">
+          <option value="">--Please choose an option--</option>
+          <option value="0">Hispanic/Latino</option>
+          <option value="1">Black, Non-Hispanic</option>
+          <option value="2">White, Non-Hispanic</option>
+          <option value="3">American Indian/Alaska Native, Non-Hispanic</option>
+          <option value="4">Asian, Non-Hispanic</option>
+          <option value="5">Multiple/Other, Non-Hispanic</option>
+          <option value="6">Native Hawaiian/Other Pacific Islander, Non-Hispanic</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="underlying-conditions-select">Any underlying conditions?</label>
+        <select name="underlying-conditions" id="underlying-conditions-select">
+          <option value="">--Please choose an option--</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <button type="submit" form="prediction" value="Submit">Submit</button>
+    </form>
+
+    {% if prediction_data %}
+      <div class="alert alert-info">
+        PREDICTION: {{ prediction_data }}
+      </div>
+    {% endif %}
+  </div>
+</html>
