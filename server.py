@@ -4,7 +4,7 @@ from predictor import run_predictions
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
-def hello_world():
+def index():
     prediction_data = None
     sex = request.form.get("sex")
     age_range = request.form.get("age")

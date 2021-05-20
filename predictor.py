@@ -9,10 +9,10 @@ def run_predictions(**kwargs):
 
     with open('./models/mortality.pickle', 'rb') as f:
         clf = pickle.load(f)
-        deat_prediction = clf.predict_proba((np.array([sex, age_range, race_ethnicity, has_underlying_conditions]).reshape(1, -1)))[0]
-        survival_prob, mortality_prob = deat_prediction
+        death_prediction = clf.predict_proba((np.array([sex, age_range, race_ethnicity, has_underlying_conditions]).reshape(1, -1)))[0]
+        _, mortality_prob = death_prediction
 
     return {
-        "hospitilization_probability": "N/A",
-        "death_probability": f"{(mortality_prob * 100)}%"
+        "hospitalization_probability": "N/A",
+        "death_probability": f"{round((mortality_prob * 100), 2)}%"
     }

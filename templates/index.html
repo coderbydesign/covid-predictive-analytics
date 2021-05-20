@@ -9,8 +9,8 @@
         ERROR: {{ error }}
       </div>
     {% endif %}
-    <h1>COVID Hospitilization and Mortality Probabilities</h1>
-    <h5>Probabilities are based on a predictive analytics logistic regression model.</h5>
+    <h1>COVID Hospitalization and Mortality Probabilities</h1>
+    <h5>Probabilities using predictive analytics, and a logistic regression model.</h5>
     <hr>
     <form id="prediction" method="post" action="">
       <div>
@@ -66,7 +66,14 @@
 
     {% if prediction_data %}
       <div class="alert alert-info">
-        PREDICTION: {{ prediction_data }}
+        <h3>Predictions:</h3>
+        <hr>
+        <div>
+          <strong>Probability of hospitalization:</strong> {{ prediction_data['hospitalization_probability'] }}
+        </div>
+        <div>
+          <strong>Probability of death:</strong> {{ prediction_data['death_probability'] }}
+        </div>
       </div>
     {% endif %}
   </div>
