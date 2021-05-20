@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 python-dotenv = "*"
 numpy = "*"
+flask = "*"
+sklearn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.6"
