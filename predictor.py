@@ -12,12 +12,12 @@ def run_predictions(**kwargs):
         death_prediction = clf.predict_proba((np.array([sex, age_range, race_ethnicity, has_underlying_conditions]).reshape(1, -1)))[0]
         _, mortality_prob = death_prediction
 
-    with open('./models/hospitality.pickle', 'rb') as f:
+    with open('./models/hospitalization.pickle', 'rb') as f:
         clf = pickle.load(f)
         hosp_prediction = clf.predict_proba((np.array([sex, age_range, race_ethnicity, has_underlying_conditions]).reshape(1, -1)))[0]
-        _, hospitality_prob = hosp_prediction
+        _, hospitalization_prob = hosp_prediction
 
     return {
-        "hospitalization_probability": f"{round((hospitality_prob * 100), 2)}%",
+        "hospitalization_probability": f"{round((hospitalization_prob * 100), 2)}%",
         "death_probability": f"{round((mortality_prob * 100), 2)}%"
     }
