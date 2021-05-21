@@ -14,11 +14,12 @@ datapoints.
 
 We'll need to determine which fields to use from the dataset to train the model(s)
 with in order to get a favorable outcome on analysis, but at a high-level we should
-have a way to supply a dataset to the model like so:
+have a way to supply a dataset to the model with the following fields:
 
-```json
-{"age": 38, "sex": "female", "ethnicity": "Hispanic/Latino", "underlying-conditions": false}
-```
+- age
+- sex
+- race and ethnicity
+- underlying conditions
 
 This should in turn provide us with the likelihood of hospitalization and/or death
 after a COVID infection, and show what types of racial and ethnic disparities exist.
@@ -74,14 +75,16 @@ $ gunicorn server:app
 ```
 
 ## ToDo
-- [] create notebooks to explore data for mortality _and_ hospitilizations
-- [] save the trained models to `./models/`
-- [] load the models into a module where we can have methods to pass in data to predict
+- [x] create notebooks to explore data for mortality _and_ hospitilizations
+- [x] save the trained models to `./models/`
+- [x] load the models into a module where we can have methods to pass in data to predict
   probabilities for either model
-- [] create a simple API with Flask to accept data
-- [] create a simple FE with select menus which will map the display values to the
+- [x] create a simple API with Flask to accept data
+- [x] create a simple FE with select menus which will map the display values to the
   values in our mappings for sex, age group, race/ethnicity, and underlying conditions
-- [] plot trends visually with `matplotlib` to show any data disparities
+- [x] plot trends visually with `matplotlib` to show any data disparities
+- [] create and compare models for other illnesses such as Influenza, to show context
+- [] use vaccine status data if it becomes available
 
 ## Resources
 - https://pandas.pydata.org/getting_started.html
