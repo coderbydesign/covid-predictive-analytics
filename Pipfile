@@ -8,6 +8,7 @@ python-dotenv = "*"
 numpy = "*"
 flask = "*"
 sklearn = "*"
+gunicorn = "*"
 
 [dev-packages]
 
