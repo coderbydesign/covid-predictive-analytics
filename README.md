@@ -61,10 +61,16 @@ the command to open a specific notebook:
 jupyter notebook covid-mortality.ipynb
 ```
 
-To install dependencies and run the server:
+Install dependencies:
 ```
 $ pipenv install
+```
+
+Run the server:
+```
 $ flask run
+# or with gunicorn
+$ gunicorn server:app
 ```
 
 ## ToDo
